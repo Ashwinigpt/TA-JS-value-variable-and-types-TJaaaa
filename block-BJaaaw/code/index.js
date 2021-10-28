@@ -6,21 +6,37 @@
   - `if` the number is even print the message " number is even"
   - `if` the number is odd print the message "number is odd"
 */
-const number = prompt("Enter a number: ");
 
-//check if the number is even
-if(number % 2 == 0) {
-    console.log("The number is even.");
-}
+let number = +prompt("Enter a number");
 
-// if the number is odd
-else {
-    console.log("The number is odd.");
+if (number % 2 === 0) {
+  alert ("number is even");
+
+} else {
+  alert ("number is odd");
 }
 
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
 
+let number1 = +prompt("Enter number1");
+let number2 = +prompt("Enter number2");
+
+if (number1 > number2) {
+  alert(`${number1} is greater` );
+} else {
+  alert (`${number2} is greater`);
+}
+
 // 3. Convert the above code using`?` terniary operator
+
+let numberA = +prompt("Enter numberA");
+let numberB = +prompt("Enter numberB");
+
+numberA > numberB ?
+alert(`${numberA} is greater`)
+:
+alert(`${numberB} is greater`)
+
 
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
@@ -29,6 +45,17 @@ else {
   - `if` house name is "lannister" then print the message " A lannister always pays his debt"
   - `else` print the message " All men must die"
 */
+
+let houseName = +prompt("Enter a housename");
+ if (houseName === stark) {
+   alert(`Winter is coming`)
+
+ } else if (houseName === lannister) {
+  alert(`A lannister always pays his debt`)
+
+ } else {
+  alert(`All men must die`)
+ }
 
 // 5. Convert the above code using`?` terniary operator
 
