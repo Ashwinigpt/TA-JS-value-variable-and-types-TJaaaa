@@ -6,6 +6,17 @@
   - `if` the number is even print the message " number is even"
   - `if` the number is odd print the message "number is odd"
 */
+const number = prompt("Enter a number: ");
+
+//check if the number is even
+if(number % 2 == 0) {
+    console.log("The number is even.");
+}
+
+// if the number is odd
+else {
+    console.log("The number is odd.");
+}
 
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
 
