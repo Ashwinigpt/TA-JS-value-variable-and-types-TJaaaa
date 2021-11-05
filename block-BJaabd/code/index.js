@@ -22,7 +22,7 @@ if(age > 12 && age < 55) {
 } else if (age < 4) {
   alert("Hey Kiddo! Can You Walk ?");
 
-} else if (age > 55) {
+} else {
   alert("You are too old to participate in the marthon")
 }
 
@@ -77,7 +77,7 @@ Take a number value from user and alert the message if it matches the conditions
 */
 // [Your code goes here]
 
-let number = +prompt("Enter any number");
+let number = +prompt("Enter any number between 1-10");
 switch(number) {
   case 1:
     alert("ONE");
@@ -198,17 +198,17 @@ if ( num3 > 0 ){
 
 alert(`Sign : ${Sign1} Sign : ${Sign2} Sign : ${Sign3} `);
 
-
+// second method
 
 let num1 = +prompt(`Enter the first number`);
 let num2 = +prompt(`Enter the second number`);
 let num3 = +prompt(`Enter the third number`);
-let sumAll = (num1 * num2 * num3);
+let multiplyAll = (num1 * num2 * num3);
 
-if(sumAll < 0){
-  alert(`${sumAll} is a negative number.`);
+if(multiAll < 0){
+  alert(`${multiplyAll} is a negative number.`);
 } else{
-  alert(`${sumAll} is a positive number.`);
+  alert(`${multiplyAll} is a positive number.`);
 }
 
 /* Calculator
