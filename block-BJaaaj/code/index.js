@@ -7,11 +7,11 @@ let lastName = "Stark";
 
 // Alert the value of the firstName.
 
-alert("firstName");
+alert(firstName);
 
 // Alert the value of the lastName.
 
-alert("lastName");
+alert(lastName);
 
 // Assign a new value of `"John"` to firstName.
 
@@ -27,7 +27,7 @@ alert(firstName + lastName);
 
 // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
 
-const fullName = firstName + "" + lastName;
+const fullName = firstName + " " + lastName;
 
 // Declare three variables `name,` `newUser` and `isAdmin`.
 
