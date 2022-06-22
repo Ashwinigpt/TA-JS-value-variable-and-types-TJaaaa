@@ -19,7 +19,7 @@ let num2 = 32;
 let language = "JavaScript";
 alert(`I am learning ${language}`);
 alert(`The value of num1 is ${num1} and the value of num2 is ${num2}`);
-alert(`The sum of ${num1} and ${num2} is ${num1} + ${num2}`);
+alert(`The sum of ${num1} and ${num2} is ${(num1 + num2)}`);
 /*
 2. Do the following using `alert`, `prompt` and `confirm` and `console`
 
@@ -28,7 +28,7 @@ alert(`The sum of ${num1} and ${num2} is ${num1} + ${num2}`);
   - Using confirm check if user is adult or not and store the value in `isAdult`
   - Alert message `I am [userName] a [userProfession]`
   - Log the message `I am [userName] a [userProfession]`
-  - Alet message `Username: [userName]
+  - Alert message `Username: [userName]
     Adult: [isAdult]
     Profession: [userProfession]` (it should be in three different lines)
   - Log the message using console.log `Username: [userName]
@@ -41,7 +41,7 @@ let isAdult = confirm("Are you an adult?");
 alert(`I am ${userName} a ${userProfession}`);
 console.log(`I am ${userName} a ${userProfession}`);
 alert(`Username: ${userName}
- Adult: ${isAdult}
+Adult: ${isAdult}
 Profession: ${userProfession}`);
 
 /*
